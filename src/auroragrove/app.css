@@ -15,6 +15,9 @@ body {
 .navbar .nav-link:hover {
      transition: border 0.2s;
      border-bottom: 1px solid white; }
+.navbar h4 {
+     font-weight: 500;
+}
 
 #showcase {
      background-image: url('./images/main.jpeg');
@@ -24,3 +27,43 @@ body {
      min-height: 904px;
      /*position: relative; !*https://medium.com/@leannezhang/difference-between-css-position-absolute-versus-relative-35f064384c6*!*/
 }
+
+#showcase h1 {
+     font-family: "Questrial", sans-serif;
+     line-height: 1;
+}
+
+#showcase .btn-info {
+     font-weight: 500;
+     font-size: 1.5rem;
+     border-radius: 2rem;
+}
+
+#jumbotron h5 {
+     font-weight: 300;
+}
+
+#footer {
+     background-color: #1f1f1f !important;
+     font-weight: 100;
+}
+
+#footer .nav-link {
+     color: white;
+}
+
+/*#footer .nav-item {*/
+/*     font-size: 0.8rem;*/
+/*}*/
+
+.text-info {
+     opacity: 0.8;
+}
+
+.btn-info {
+     background-color: #36b3a8;
+}
+
+/*.btn-outline-info {*/
+/*     background-color: #36b3a8;*/
+/*}*/
