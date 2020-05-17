@@ -17,7 +17,7 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#">
             <h3 class="mb-0">Aurora Grove</h3>
         </a>
@@ -31,13 +31,13 @@
                     <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#icons">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Explore</a>
+                    <a class="nav-link" href="#explore">Explore</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Book</a>
@@ -53,143 +53,157 @@
             <h1 class="display-1">AURORA GROVE</h1>
             <p class="lead d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, hic?</p>
             <button id="book" class="btn btn-lg btn-info px-5" data-toggle="modal" data-target="#bookingModal">BOOK NOW</button>
+            <a href="#icons"><i id="scrolldown" class="fas fa-arrow-alt-circle-down fa-3x"></i></a>
         </div>
     </section>
 
     <div class="container text-center mt-5">
-        <h3 class="mt-10 mb-4">YOU SHOW UP, WE PITCH THE TENT.</h3>
-        <div class="row">
-            <div class="col-12 col-md-4 mb-4 mb-md-0">
-                <img class="d-none d-md-block w-100" src="images/icons/tent.png">
-                <h3>Amenities You Want</h3>
-                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab incidunt cumque molestias! Quo expedita omnis aliquam placeat consequuntur deleniti doloribus!</p>
-            </div>
-            <div class="col-12 col-md-4 mb-4 mb-md-0">
-                <img class="d-none d-md-block w-100" src="images/icons/campfire.png">
-                <h3>Amenities You Want</h3>
-                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab incidunt cumque molestias! Quo expedita omnis aliquam placeat consequuntur deleniti doloribus!</p>
-            </div>
-            <div class="col-12 col-md-4 mb-4 mb-md-0">
-                <img class="d-none d-md-block w-100" src="images/icons/nature.png">
-                <h3>Amenities You Want</h3>
-                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab incidunt cumque molestias! Quo expedita omnis aliquam placeat consequuntur deleniti doloribus!</p>
-            </div>
-        </div>
 
-        <h3 class="mt-5 mb-2">WE’VE CREATED A CAMPING EXPERIENCE THAT’S TURN-KEY AND HASSLE FREE.</h3>
-        <div class="row row-cols-1 row-cols-md-2 p-3">
-            <div class="col mb-4">
-                <div class="card">
-                    <img src="./images/winter.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h2 class="card-title text-info">EXPERIENCE</h2>
-                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, officiis.</p>
-                        <button class="btn btn-lg btn-outline-info">Go Somewhere</button>
+        <section id="icons">
+            <h3 class="mt-10 mb-4">YOU SHOW UP, WE PITCH THE TENT.</h3>
+            <div class="row">
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
+                    <img class="d-none d-md-block w-100" src="images/icons/tent.png">
+                    <h3>Amenities You Want</h3>
+                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab incidunt cumque molestias! Quo expedita omnis aliquam placeat consequuntur deleniti doloribus!</p>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
+                    <img class="d-none d-md-block w-100" src="images/icons/campfire.png">
+                    <h3>Amenities You Want</h3>
+                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab incidunt cumque molestias! Quo expedita omnis aliquam placeat consequuntur deleniti doloribus!</p>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
+                    <img class="d-none d-md-block w-100" src="images/icons/nature.png">
+                    <h3>Amenities You Want</h3>
+                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab incidunt cumque molestias! Quo expedita omnis aliquam placeat consequuntur deleniti doloribus!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="explore">
+            <h3 class="mt-5 mb-2">WE’VE CREATED A CAMPING EXPERIENCE THAT’S TURN-KEY AND HASSLE FREE.</h3>
+            <div class="row row-cols-1 row-cols-md-2 p-3">
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="./images/winter.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title text-info">EXPERIENCE</h2>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, officiis.</p>
+                            <button class="btn btn-lg btn-outline-info">Go Somewhere</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="./images/dogs.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title text-info">EXPLORE</h2>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, officiis.</p>
+                            <button class="btn btn-lg btn-outline-info">Go Somewhere</button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col mb-4">
-                <div class="card">
-                    <img src="./images/dogs.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h2 class="card-title text-info">EXPLORE</h2>
-                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, officiis.</p>
-                        <button class="btn btn-lg btn-outline-info">Go Somewhere</button>
-                    </div>
+        </section>
+
+        <section id="quotes">
+            <h3 class="mt-3 mb-4">WHAT OUR HAPPY CAMPERS ARE SAYING</h3>
+            <div class="row">
+                <div class="col-4">
+                    <i class="fas fa-quote-left fa-2x text-info mb-3"></i>
+                    <blockquote class="blockquote text-center">
+                        <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Shania Twain</footer>
+                    </blockquote>
+                </div>
+                <div class="col-4">
+                    <i class="fas fa-quote-left fa-2x text-info mb-3"></i>
+                    <blockquote class="blockquote text-center">
+                        <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Bryan Adams</footer>
+                    </blockquote>
+                </div>
+                <div class="col-4">
+                    <i class="fas fa-quote-left fa-2x text-info mb-3"></i>
+                    <blockquote class="blockquote text-center">
+                        <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Puff Diddy</footer>
+                    </blockquote>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <h3 class="mt-3 mb-4">WHAT OUR HAPPY CAMPERS ARE SAYING</h3>
-        <div class="row">
-            <div class="col-4">
-                <i class="fas fa-quote-left fa-2x text-info mb-3"></i>
-                <blockquote class="blockquote text-center">
-                    <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer class="blockquote-footer">Shania Twain</footer>
-                </blockquote>
-            </div>
-            <div class="col-4">
-                <i class="fas fa-quote-left fa-2x text-info mb-3"></i>
-                <blockquote class="blockquote text-center">
-                    <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer class="blockquote-footer">Bryan Adams</footer>
-                </blockquote>
-            </div>
-            <div class="col-4">
-                <i class="fas fa-quote-left fa-2x text-info mb-3"></i>
-                <blockquote class="blockquote text-center">
-                    <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer class="blockquote-footer">Puff Diddy</footer>
-                </blockquote>
-            </div>
-        </div>
-
-        <div class="row my-5">
-            <div id="carouselExampleControls" class="carousel slide col-7" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./images/slider/caribou.png" class="d-block w-100" alt="...">
+        <section id="sights">
+            <div class="row my-5">
+                <div id="carouselExampleControls" class="carousel slide col-7" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/slider/caribou.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/slider/coffee.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/slider/fire.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/slider/trees.png" class="d-block w-100" alt="...">
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="./images/slider/coffee.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/slider/fire.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/slider/trees.png" class="d-block w-100" alt="...">
-                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
 
-            <div class="col-5 text-left">
-                <h3>CAMPING MADE COZY</h3>
-                <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi dolores voluptas sit. Quia harum debitis fugit! Veritatis a vero in laborum vel, explicabo tenetur repudiandae modi at dolorum architecto rem sequi suscipit maxime unde similique, est impedit vitae nihil exercitationem?</p>
-                <a href="#" class="text-info">See for yourself <i class="fas fa-arrow-right"></i></a>
+                <div class="col-5 text-left">
+                    <h3>CAMPING MADE COZY</h3>
+                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi dolores voluptas sit. Quia harum debitis fugit! Veritatis a vero in laborum vel, explicabo tenetur repudiandae modi at dolorum architecto rem sequi suscipit maxime unde similique, est impedit vitae nihil exercitationem?</p>
+                    <a href="#" class="text-info">See for yourself <i class="fas fa-arrow-right"></i></a>
+                </div>
             </div>
-        </div>
+        </section>
 
-        <div>
-            <h3>WHAT OTHERS ARE SAYING</h3>
-            <h5 class="text-info">#AURORAGROVE</h5>
-            <div class="row mb-5">
-                <img class="col-lg-3 col-6 my-2" src="./images/gallery/social1.png"></img>
-                <img class="col-lg-3 col-6 my-2" src="./images/gallery/social2.png"></img>
-                <img class="col-lg-3 col-6 my-2" src="./images/gallery/social3.png"></img>
-                <img class="col-lg-3 col-6 my-2" src="./images/gallery/social4.png"></img>
-                <img class="col-lg-3 col-6 my-2" src="./images/gallery/social5.png"></img>
-                <img class="col-lg-3 col-6 my-2" src="./images/gallery/social6.png"></img>
-                <img class="col-lg-3 col-6 my-2" src="./images/gallery/social7.png"></img>
-                <img class="col-lg-3 col-6 my-2" src="./images/gallery/social8.png"></img>
+        <section id="gallery">
+            <div>
+                <h3>WHAT OTHERS ARE SAYING</h3>
+                <h5 class="text-info">#AURORAGROVE</h5>
+                <div class="row mb-5">
+                    <img class="col-lg-3 col-6 my-2" src="./images/gallery/social1.png"></img>
+                    <img class="col-lg-3 col-6 my-2" src="./images/gallery/social2.png"></img>
+                    <img class="col-lg-3 col-6 my-2" src="./images/gallery/social3.png"></img>
+                    <img class="col-lg-3 col-6 my-2" src="./images/gallery/social4.png"></img>
+                    <img class="col-lg-3 col-6 my-2" src="./images/gallery/social5.png"></img>
+                    <img class="col-lg-3 col-6 my-2" src="./images/gallery/social6.png"></img>
+                    <img class="col-lg-3 col-6 my-2" src="./images/gallery/social7.png"></img>
+                    <img class="col-lg-3 col-6 my-2" src="./images/gallery/social8.png"></img>
+                </div>
+                <i class="fas fa-quote-left fa-2x text-info mb-3"></i>
+                <blockquote class="blockquote text-center">
+                    <p class="mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, veniam dolorum quidem illo eos ipsam voluptatem officiis quas impedit fugit, maxime numquam placeat, odio ducimus vel voluptas assumenda architecto optio sit non aperiam harum qui. Facilis mollitia atque nostrum maiores.</p>
+                    <footer class="blockquote-footer">Sting and Shaggy</footer>
+                </blockquote>
             </div>
-            <i class="fas fa-quote-left fa-2x text-info mb-3"></i>
-            <blockquote class="blockquote text-center">
-                <p class="mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, veniam dolorum quidem illo eos ipsam voluptatem officiis quas impedit fugit, maxime numquam placeat, odio ducimus vel voluptas assumenda architecto optio sit non aperiam harum qui. Facilis mollitia atque nostrum maiores.</p>
-                <footer class="blockquote-footer">Sting and Shaggy</footer>
-            </blockquote>
-        </div>
+        </section>
     </div>
 
-    <div id="jumbotron" class="jumbotron jumbotron-fluid text-center bg-dark text-light mb-0">
-        <h5 class="display-5 mb-3">JOIN OUR NEWSLETTER FOR DEALS AND UPDATES AND OFFERS</h5>
-        <form class="form-inline mx-auto justify-content-center">
-            <div class="input-group">
-                <input class="form-control" type="text" placeholder="Your Email">
-                <div class="input-group-append">
-                    <button class="btn btn-info" type="submit">Join Now</button>
+    <section id="contact">
+        <div id="jumbotron" class="jumbotron jumbotron-fluid text-center bg-dark text-light mb-0">
+            <h5 class="display-5 mb-3">JOIN OUR NEWSLETTER FOR DEALS AND UPDATES AND OFFERS</h5>
+            <form class="form-inline mx-auto justify-content-center">
+                <div class="input-group">
+                    <input class="form-control" type="text" placeholder="Your Email">
+                    <div class="input-group-append">
+                        <button class="btn btn-info" type="submit">Join Now</button>
+                    </div>
                 </div>
-            </div>
-        </form>
-    </div>
+            </form>
+        </div>
+    </section>
 
     <section id="footer" class="py-3">
         <ul class="nav justify-content-center">
