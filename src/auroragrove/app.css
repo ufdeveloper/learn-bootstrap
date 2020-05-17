@@ -7,7 +7,8 @@ body {
      top: 0;
      right: 0;
      left: 0;
-     z-index: 3; }
+     z-index: 3;
+}
 .navbar .navbar-brand h3 {
      font-weight: 100; }
 .navbar .nav-item {
@@ -28,6 +29,10 @@ body {
      /*position: relative; !*https://medium.com/@leannezhang/difference-between-css-position-absolute-versus-relative-35f064384c6*!*/
 }
 
+#showcase #header {
+     z-index: 2;
+}
+
 #showcase h1 {
      font-family: "Questrial", sans-serif;
      line-height: 1;
@@ -38,6 +43,15 @@ body {
      font-size: 1.5rem;
      border-radius: 2rem;
 }
+
+#showcase #overlay {
+     background: rgba(0, 0, 0, 0.2);
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     z-index: 1; }
 
 #jumbotron h5 {
      font-weight: 300;
