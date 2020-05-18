@@ -1,5 +1,6 @@
 html {
      scroll-behavior: smooth;
+     /*overflow: hidden; !* Hide scrollbars *!*/
 }
 
 body {
@@ -30,7 +31,7 @@ body {
      background-size: cover;
      background-repeat: no-repeat;
      min-height: 904px;
-     /*position: relative; !*https://medium.com/@leannezhang/difference-between-css-position-absolute-versus-relative-35f064384c6*!*/
+     position: relative; /*https://medium.com/@leannezhang/difference-between-css-position-absolute-versus-relative-35f064384c6*/
 }
 
 #showcase #header {
@@ -95,6 +96,20 @@ body {
      background-color: #36b3a8;
 }
 
-/*.btn-outline-info {*/
-/*     background-color: #36b3a8;*/
-/*}*/
+@media (max-width: 768px) {
+     .navbar {
+          background-color: #1f1f1f;
+     }
+
+     .navbar .nav-link:hover {
+          border-bottom: none
+     }
+
+     #showcase {
+          min-height: 500px;
+     }
+
+     #showcase h1 {
+          font-size: 4rem;
+     }
+}
